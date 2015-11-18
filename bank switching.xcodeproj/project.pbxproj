@@ -6,10 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		EF2C3B121BF987C700A2F152 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		EF2C3B131BF9884300A2F152 /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; usesTabs = 1; };
+		EF2C3B141BFB314A00A2F152 /* gfx1.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = gfx1.s; sourceTree = "<group>"; };
+		EF2C3B151BFB314A00A2F152 /* gfx2.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = gfx2.s; sourceTree = "<group>"; };
+		EF2C3B161BFB314A00A2F152 /* gfx3.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; path = gfx3.s; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		EF2C3B071BF987B100A2F152 = {
 			isa = PBXGroup;
 			children = (
+				EF2C3B131BF9884300A2F152 /* makefile */,
+				EF2C3B121BF987C700A2F152 /* main.c */,
+				EF2C3B141BFB314A00A2F152 /* gfx1.s */,
+				EF2C3B151BFB314A00A2F152 /* gfx2.s */,
+				EF2C3B161BFB314A00A2F152 /* gfx3.s */,
 			);
 			sourceTree = "<group>";
 		};
